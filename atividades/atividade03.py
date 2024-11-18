@@ -1,5 +1,5 @@
 # Solicitação de inserção do primeiro nome
-primeiro_nome = input("Digite seu priemrio nome: ")
+primeiro_nome = input("Digite seu primeiro nome: ")
 
 # Solicitação de inserção do sobrenome
 sobrenome = input("Digite seu sobrenome: ")
