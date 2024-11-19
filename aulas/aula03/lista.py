@@ -12,3 +12,8 @@ print(frutas)
 
 #Exibiçãom do tipo da variável - "list"
 print(type(frutas))
+
+# Acessando elementos da lista através de índices
+print(frutas[0])
+print("----------")
+print(frutas[1])
