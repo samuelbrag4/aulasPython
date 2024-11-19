@@ -18,7 +18,7 @@ print(frutas[0])
 print("----------")
 print(frutas[1])
 
-# ----------
+# ---------- DECLARAÇÃO DE DADOS DE TIPOS DIFERENTES EM UMA LISTA
 
 print("-----SEPARAÇÃO-----")
 
@@ -90,7 +90,6 @@ print(len(frutas))
 print("----------")
 print(len(lista_vazia))
 
-
 # ---------- PEGAR PEDAÇOS DA LISTA
 
 print("-----SEPARAÇÃO-----")
@@ -105,3 +104,19 @@ print(a_lista[2:])
 print("\n")
 # Pegar pedaços da lista - do índice 2 até o índice 4
 print(a_lista[2:4])
+
+# ---------- INSERT()
+
+print("-----SEPARAÇÃO-----")
+
+'''
+O método insert() adiciona um elemento em uma posição específica da lista.
+Sintaxe: .insert(posição, elemento)
+Exemplo:
+'''
+
+# Adicionar um elemento ao final da lista
+frutas.insert(1, 'Abacaxi')
+
+# Exibição da lista
+print(frutas)
