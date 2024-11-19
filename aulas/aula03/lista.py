@@ -79,4 +79,13 @@ lista_vazia = []
 print(lista_vazia)
 
 # Exibiçãom do tipo da variável - "list"
-print(type(lista_vazia)
+print(type(lista_vazia))
+
+# ----------
+
+print("-----SEPARAÇÃO-----")
+
+# Contagem do tamanho de uma lista
+print(len(frutas))
+print("----------")
+print(len(lista_vazia))
