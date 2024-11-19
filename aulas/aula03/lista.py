@@ -67,3 +67,16 @@ print(lista1[1][1])
 Explicação:
 Eu entro na lista1 e pego o índice 1, que é a lista de frutas. Depois, entro na lista de frutas e pego o índice 1, que é a maçã.
 '''
+
+# ----------
+
+print("-----SEPARAÇÃO-----")
+
+# Uma lista também pode ser vazia
+lista_vazia = []
+
+# Exibição da lista
+print(lista_vazia)
+
+# Exibiçãom do tipo da variável - "list"
+print(type(lista_vazia)
