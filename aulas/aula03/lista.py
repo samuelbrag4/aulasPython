@@ -55,3 +55,15 @@ print(lista1)
 
 # Exibiçãom do tipo da variável - "list"
 print(type(lista1))
+
+# Exemplo de acesso à valores da lista
+print(lista1[1])
+
+print("-----SEPARAÇÃO-----")
+
+# Exemplo de acesso à valores da lista que está dentro de outra lista
+print(lista1[1][1])
+'''
+Explicação:
+Eu entro na lista1 e pego o índice 1, que é a lista de frutas. Depois, entro na lista de frutas e pego o índice 1, que é a maçã.
+'''
