@@ -38,7 +38,7 @@ print(a_lista)
 # Exibiçãom do tipo da variável - "list"
 print(type(a_lista))
 
-# ----------
+# ---------- LISTA DE LISTAS
 
 print("-----SEPARAÇÃO-----")
 
@@ -68,7 +68,7 @@ Explicação:
 Eu entro na lista1 e pego o índice 1, que é a lista de frutas. Depois, entro na lista de frutas e pego o índice 1, que é a maçã.
 '''
 
-# ----------
+# ---------- LISTA VAZIA
 
 print("-----SEPARAÇÃO-----")
 
@@ -81,7 +81,7 @@ print(lista_vazia)
 # Exibiçãom do tipo da variável - "list"
 print(type(lista_vazia))
 
-# ----------
+# ---------- FUNÇÃO LEN()
 
 print("-----SEPARAÇÃO-----")
 
@@ -89,3 +89,19 @@ print("-----SEPARAÇÃO-----")
 print(len(frutas))
 print("----------")
 print(len(lista_vazia))
+
+
+# ---------- PEGAR PEDAÇOS DA LISTA
+
+print("-----SEPARAÇÃO-----")
+
+print(a_lista)
+print("\n")
+# Pegar pedaços da lista - do início até o índice 2
+print(a_lista[:2])
+print("\n")
+# Pegar pedaços da lista - do índice 2 até o final
+print(a_lista[2:])
+print("\n")
+# Pegar pedaços da lista - do índice 2 até o índice 4
+print(a_lista[2:4])
