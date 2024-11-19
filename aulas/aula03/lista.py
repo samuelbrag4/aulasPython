@@ -20,6 +20,8 @@ print(frutas[1])
 
 # ----------
 
+print("-----SEPARAÇÃO-----")
+
 # Declarar outros tipos de dados em uma lista
 
 '''
@@ -35,3 +37,21 @@ print(a_lista)
 
 # Exibiçãom do tipo da variável - "list"
 print(type(a_lista))
+
+# ----------
+
+print("-----SEPARAÇÃO-----")
+
+'''
+Em uma lista, você pode armazenar outras listas, juntamente de outros tipos de dados. NÃO HÁ LIMITESSSSSS
+Exemplo:
+'''
+
+# Declaração de uma lista
+lista1 = [a_lista, frutas, "Python", None, 3.14, 10 / 2, 3 <= 5]
+
+# Exibição da lista
+print(lista1)
+
+# Exibiçãom do tipo da variável - "list"
+print(type(lista1))
