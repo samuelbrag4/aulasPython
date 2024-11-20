@@ -120,3 +120,23 @@ frutas.insert(1, 'Abacaxi')
 
 # Exibição da lista
 print(frutas)
+
+# ---------- APPEND()
+
+print("-----SEPARAÇÃO-----")
+
+# Para inserir valores no final da lista, pode-se usar o método append()
+frutas.append("Laranja")
+
+# Exibição da lista
+print(frutas)
+
+# ---------- EXTEEND()
+
+print("-----SEPARAÇÃO-----")
+
+# Para adicionar mais de um elemento ao final da lista, pode-se usar o método extend()
+frutas.extend(["Limão", "Melancia", "Caju"])
+
+# Exibição da lista
+print(frutas)
