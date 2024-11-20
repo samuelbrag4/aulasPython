@@ -171,3 +171,16 @@ Resultado:
 ['Banana', 'Maçã', 'Pera', 'Uva', 'Morango', 'Abacaxi', 'Laranja', 'Limão', 'Melancia', 'Caju', 'Limão', 'Melancia', 'Caju']
 Neste caso, os elementos foram adicionados ao final da propria lista, sem criar outra com eles.
 '''
+
+# ---------- REMOVE()
+
+print("-----SEPARAÇÃO-----")
+
+# Remover um elemento da lista
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Removendo o terceiro elemento da lista
+numeros.remove(3)
+
+# Exibição da lista
+print(numeros)
