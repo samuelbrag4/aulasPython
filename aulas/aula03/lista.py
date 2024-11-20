@@ -140,3 +140,14 @@ frutas.extend(["Limão", "Melancia", "Caju"])
 
 # Exibição da lista
 print(frutas)
+
+# --- OU ---
+
+# Lista de frutas adicionais
+frutas_adicionais = ["Limão", "Melancia", "Caju"]
+
+# Extentendo a lista de frutas com a lista de frutas adicionais
+frutas.extend(frutas_adicionais)
+
+# Exibição da lista
+print(frutas)
