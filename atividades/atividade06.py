@@ -7,7 +7,7 @@ norte = ["Manaus", "Belém", "Palmas", "Porto Velho", "Boa Vista", "Macapá", "R
 sul = ["Curitiba", "Florianópolis", "Porto Alegre", "Londrina", "Joinville", "Pelotas", "Criciúma"]
 
 # Lista geral
-cidades = [norte, sul]
+cidades = norte + sul
 
 # Exibições das listas
 
