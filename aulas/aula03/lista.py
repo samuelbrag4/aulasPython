@@ -216,3 +216,21 @@ mais_futas = frutas + ["Graviola"] + ["Goiaba", "Tamara"]
 
 # Exibição da lista
 print(mais_futas)
+
+# ---------- COPY()
+
+print("-----SEPARAÇÃO-----")
+
+# Copiar uma lista
+mais_frutas_copia = mais_futas.copy()
+
+# Exibição da lista
+print(mais_frutas_copia)
+
+# Modificar lista
+mais_frutas_copia.remove("Banana")
+mais_frutas_copia.pop()
+
+# Exibições
+print(mais_frutas_copia)
+print(mais_futas)
