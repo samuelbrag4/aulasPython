@@ -206,3 +206,13 @@ print(frutas)
 fruta_removida = frutas.pop(2)
 print(frutas)
 print(fruta_removida)
+
+# ---------- JUNTAR LISTAS
+
+print("-----SEPARAÇÃO-----")
+
+# Juntar duas listas
+mais_futas = frutas + ["Graviola"] + ["Goiaba", "Tamara"]
+
+# Exibição da lista
+print(mais_futas)
