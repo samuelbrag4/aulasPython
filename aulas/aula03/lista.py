@@ -199,3 +199,10 @@ print(numeros)
 Explicação:
 O método .pop() remove um elemento da lista atravéz de seu íncice. Se não foi passado nenhum índice, por padrão, o método remove o último elemento da lista
 '''
+
+# ----- OU
+
+print(frutas)
+fruta_removida = frutas.pop(2)
+print(frutas)
+print(fruta_removida)
