@@ -184,3 +184,18 @@ numeros.remove(3)
 
 # Exibição da lista
 print(numeros)
+
+# ---------- POP()
+
+print("-----SEPARAÇÃO-----")
+
+# Remover um elemento da lista através do índice
+numeros.pop(2)
+
+# Exibição da lista
+print(numeros)
+
+'''
+Explicação:
+O método .pop() remove um elemento da lista atravéz de seu íncice. Se não foi passado nenhum índice, por padrão, o método remove o último elemento da lista
+'''
