@@ -151,3 +151,23 @@ frutas.extend(frutas_adicionais)
 
 # Exibição da lista
 print(frutas)
+
+'''
+Explicação:
+Por que usar o método extend() ao invés de append()?
+O método .append() adiciona um elemento ao final da lista, de modo que neste caso, seria adicionada um lista dentro de uma lsta
+Exemplo:
+frutas.append(["Limão", "Melancia", "Caju"])
+print(frutas)
+Resultado:
+['Banana', 'Maçã', 'Pera', 'Uva', 'Morango', 'Abacaxi', 'Laranja', 'Limão', 'Melancia', 'Caju', ['Limão', 'Melancia', 'Caju']]
+Neste caso, foi adicionada uma lista dentro de outra lista.
+
+Agora, o método .extend() adiciona os elementos da lista ao final da lista original, de modo que não haverá uma lista dentro de outra lista.
+Exemplo:
+frutas.extend(["Limão", "Melancia", "Caju"])
+print(frutas)
+Resultado:
+['Banana', 'Maçã', 'Pera', 'Uva', 'Morango', 'Abacaxi', 'Laranja', 'Limão', 'Melancia', 'Caju', 'Limão', 'Melancia', 'Caju']
+Neste caso, os elementos foram adicionados ao final da propria lista, sem criar outra com eles.
+'''
