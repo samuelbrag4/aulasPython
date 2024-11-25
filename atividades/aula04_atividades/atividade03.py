@@ -17,9 +17,6 @@ print(resultado_tentativa01)
 
 # Tentativa 2 sem o For
 
-# Lista de números 
-numeros = [1, 3, 5, 7, 9]
-
 # Multiplicação de todos os elementos da lista usando eval
 resultado = eval('*'.join(map(str, numeros)))
 
@@ -33,6 +30,14 @@ O método eval() interpreta uma string contendo código Python e executa esse c�
 O método join() combina os elementos de uma lista em uma única string, usando um delimitador especificado.
 O método map() aplica uma função a todos os itens de uma lista (ou qualquer iterável) e retorna um iterador com os resultados.
 '''
+
+# Tentativa 3
+
+# Variável de resultado
+resultado2 = numeros[0] * numeros[1] * numeros[2] * numeros[3] * numeros[4]
+
+# Exibição do resultado
+print(resultado2)
 
 '''
 Considere a lista: cores = ["vermelho", "azul", "verde", "amarelo", "roxo"].
