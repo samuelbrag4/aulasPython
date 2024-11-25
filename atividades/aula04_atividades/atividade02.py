@@ -10,7 +10,7 @@ print(f"Esta é a lista inicial somente com as letras: {lista}.")
 string = "".join(lista)
 
 # Exibição da string resultante:
-print(f"Esta é a lista atualizada formando a palavrs: {string}")
+print(f"Esta é a lista atualizada formando a palavra: {string}")
 
 '''
 EXPLICAÇÃO:
