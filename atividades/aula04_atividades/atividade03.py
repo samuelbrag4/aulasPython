@@ -6,14 +6,33 @@ resultado da multiplicação de todos os elementos da lista? (Sem usar laço de 
 # Lista de números 
 numeros = [1, 3, 5, 7, 9]
 
-# Multiplicação de todos os elementos da lista usando uma função lambda e a função reduce
-resultado = 1
+resultado_tentativa01 = 1
 
+# Loop de for
 for num in numeros:
-    resultado *= num
+    resultado_tentativa01 *= num
+
+# Exibição do resultado
+print(resultado_tentativa01)
+
+# Tentativa 2 sem o For
+
+# Lista de números 
+numeros = [1, 3, 5, 7, 9]
+
+# Multiplicação de todos os elementos da lista usando eval
+resultado = eval('*'.join(map(str, numeros)))
 
 # Exibição do resultado
 print(resultado)
+
+'''
+EXPLICAÇÃO:
+
+O método eval() interpreta uma string contendo código Python e executa esse código.
+O método join() combina os elementos de uma lista em uma única string, usando um delimitador especificado.
+O método map() aplica uma função a todos os itens de uma lista (ou qualquer iterável) e retorna um iterador com os resultados.
+'''
 
 '''
 Considere a lista: cores = ["vermelho", "azul", "verde", "amarelo", "roxo"].
