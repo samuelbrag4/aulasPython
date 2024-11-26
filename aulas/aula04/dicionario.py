@@ -79,3 +79,22 @@ pessoa["enderco"]["rua"] = "Rua Tal Tal"
 # Exibição
 print(pessoa)
 print(type(pessoa))
+
+# Armazenar listas
+
+# Criação do dicionário
+dict3 = {
+    "lista1": [1, 2, 3, 4, 5],
+    "lista2": [6, 7, 8, 9, 10]
+}
+
+# Adicionado lista ao dicionário
+dict3["lista3"] = [11, 12, 13, 14, 15]
+
+# Exibição
+print(dict3)
+
+# Método "pop" para remover um item
+print(persona)
+persona.pop("idade")
+print(persona)
