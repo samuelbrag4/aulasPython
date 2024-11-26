@@ -35,3 +35,20 @@ dict1["chave1"] = "Não está mais vazio!!"
 
 # Novo dicionário 
 print(dict1)
+
+# Lista junto com o dicionário
+
+# Criação do dicionário com a lista
+dict2 = {
+    "Pessoa01": ["william", 30, "Professor"],
+    "Pessoa02": ["Julia", 50, "Médica"]
+}
+
+# Exibição dele
+print(dict2)
+
+# Exibição do tipo
+print(type(dict2))
+
+# Acessando elemento dele
+print(dict2["Pessoa02"][0])
