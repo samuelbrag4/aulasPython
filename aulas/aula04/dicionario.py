@@ -71,3 +71,11 @@ print(pessoa)
 # Acessando dados
 print("Idade:", pessoa["idade"])
 print("Endereço", pessoa["enderco"]["rua"], pessoa["enderco"]["cidade"])
+
+# Alterar informações
+pessoa["idade"] = 17
+pessoa["enderco"]["rua"] = "Rua Tal Tal"
+
+# Exibição
+print(pessoa)
+print(type(pessoa))
