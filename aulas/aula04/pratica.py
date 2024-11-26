@@ -38,8 +38,30 @@ print(estoque)
 
 # Atualizar quantidade de alguns itens
 estoque["banana"] = 15
-estoque["maçã"] = 10
-estoque["laranja"] = 12
+estoque["maçã"] += 10
+estoque["laranja"] -= 3
 
 # Novo estoque
 print(estoque)
+
+# Crie um dicionário de alunos e remova um utilizando o método pop()
+
+# Dicionário de alunos
+alunos = {
+    "João": 8.5,
+    "Maria": 2,
+    "Pedro": 10,
+    "Ana": 4
+}
+
+# Exibição
+print(alunos)
+
+# Remoção de um aluno
+aluno_removido = alunos.pop("Pedro")
+
+# Exibição do aluno removido
+print(f"Aluno removido: {aluno_removido}")
+
+# Novo dicionário
+print(alunos)
