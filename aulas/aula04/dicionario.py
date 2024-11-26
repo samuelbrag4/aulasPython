@@ -19,3 +19,5 @@ persona = dict(nome="Maria", sexo="Feminino", idade=28, casado=True)
 
 print(persona)
 print(type(persona))
+
+print(f"O nome é: {persona["nome"]}, do sexo: {persona["sexo"]}")
