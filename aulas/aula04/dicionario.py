@@ -98,3 +98,4 @@ print(dict3)
 print(persona)
 persona.pop("idade")
 print(persona)
+
