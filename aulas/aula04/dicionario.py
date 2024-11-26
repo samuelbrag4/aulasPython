@@ -52,3 +52,22 @@ print(type(dict2))
 
 # Acessando elemento dele
 print(dict2["Pessoa02"][0])
+
+# Dicionário dentro de um dicionário
+
+pessoa = {
+    "nome": "Samuel",
+    "idade": 16,
+    "enderco": {
+        "rua": "Tal",
+        "cidade": "Tal Tal",
+        "estado": "Tal Tal Tal"
+    }
+}
+
+# Exibição
+print(pessoa)
+
+# Acessando dados
+print("Idade:", pessoa["idade"])
+print("Endereço", pessoa["enderco"]["rua"], pessoa["enderco"]["cidade"])
