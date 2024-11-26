@@ -59,7 +59,37 @@ python aulas/aula01/comentarios.py
 Se você deseja contribuir com este projeto, siga os passos abaixo:
 
 1. Faça um fork do repositório.
-2. Crie uma nova branch (`git checkout -b feature/nova-feature`).
-3. Faça commit das suas alterações (`git commit -am 'Adiciona nova feature'`).
-4. Faça push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
+   - Isso cria uma cópia do repositório no seu próprio GitHub.
+   - Exemplo: Clique no botão "Fork" no canto superior direito da página do repositório.
+
+2. Clone o repositório forkado para o seu computador.
+   - `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+   - Exemplo: `git clone https://github.com/joao/projeto-exemplo.git`
+
+3. Crie uma nova branch para a sua feature.
+   - `git checkout -b feature/nova-feature`
+   - Isso cria e muda para uma nova branch chamada `feature/nova-feature`.
+   - Exemplo: `git checkout -b feature/adiciona-nova-funcionalidade`
+
+4. Faça commit das suas alterações.
+   - `git commit -am 'Adiciona nova feature'`
+   - Isso adiciona todas as mudanças e cria um commit com a mensagem `'Adiciona nova feature'`.
+   - Exemplo: `git commit -am 'Corrige bug na função de login'`
+
+5. Faça push para a branch.
+   - `git push origin feature/nova-feature`
+   - Isso envia suas alterações para o repositório remoto na branch `feature/nova-feature`.
+   - Exemplo: `git push origin feature/adiciona-nova-funcionalidade`
+
+6. Abra um Pull Request.
+   - Vá até o repositório original no GitHub e clique no botão "New Pull Request".
+   - Selecione a branch que você criou e envie o Pull Request para revisão.
+
+### Explicação dos comandos Git:
+
+- `git clone <url>`: Clona o repositório especificado pela URL para o seu computador.
+- `git checkout -b <nome-da-branch>`: Cria uma nova branch com o nome especificado e muda para essa branch.
+- `git commit -am '<mensagem>'`: Adiciona todas as mudanças no diretório de trabalho ao índice (staging area) e cria um commit com a mensagem especificada.
+- `git push origin <nome-da-branch>`: Envia as mudanças da branch especificada para o repositório remoto.
+
+Seguindo esses passos, você poderá contribuir com o projeto de forma organizada e eficiente. Agradecemos suas contribuições!
