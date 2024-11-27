@@ -58,10 +58,19 @@ alunos = {
 print(alunos)
 
 # Remoção de um aluno
-aluno_removido = alunos.pop("Pedro")
+aluno_removido = alunos.pop("Pedro", "Aluno não encontrado")
 
 # Exibição do aluno removido
 print(f"Aluno removido: {aluno_removido}")
+
+# Novo dicionário
+print(alunos)
+
+# Agora, removendo a nota de um aluno
+sem_nota = alunos["Maria"] = None
+
+# Exibição
+print(sem_nota)
 
 # Novo dicionário
 print(alunos)
