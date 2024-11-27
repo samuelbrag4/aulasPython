@@ -20,6 +20,9 @@ CARACTERÍSTICAS:
 # CRIANDO UMA TUPLA
 tupla = (1, 2, 3, 4, 5)
 
+# OU - com tipos de dados diferentes
+tuplaDadosDiferentes = (1, 'Python', 3.14, True)
+
 # ACESSANDO ELEMENTOS DE UMA TUPLA
 print(tupla[0]) # Saída: 1
 print(tupla[-1]) # Saída: 5
@@ -40,8 +43,9 @@ nomeTupla[índice] -> elemento
 '''
 
 # EXIBINDO UMA TUPLA E O SEU TIPO
-print(tupla)
+print(tupla, tuplaDadosDiferentes)
 print(type(tupla))
+print(type(tuplaDadosDiferentes))
 
 # VERIFICAR O TAMANHO DA TUPLA - len()
 print(len(tupla)) # Saída: 5
@@ -90,3 +94,33 @@ EXPLICAÇÃO:
 - Tuplas são imutáveis, ou seja, não podem ser alteradas após a sua criação.
 - Para alterar elementos de uma tupla, é necessário criar uma nova tupla.
 '''
+
+# CONVERTENDO UMA TUPLA EM LISTA
+
+# Criação da tupla
+minhaTupla = (1, 2, 3, 4, 5)
+
+# Converção da tupla para lista
+listaResultado = list(minhaTupla)
+
+# Exibição da tupla e de seu tipo
+print(minhaTupla)
+print(type(minhaTupla))
+
+# Exibição da lista e de seu tipo
+print(listaResultado)
+print(type(listaResultado))
+
+# CONVERTENDO UMA LISTA EM TUPLA
+lista = [1, 2, 3, 4, 5]
+
+# Converção da lista para tupla
+tuplaResultado = tuple(lista)
+
+# Exibição da lista e de seu tipo
+print(lista)
+print(type(lista))
+
+# Exibição da tupla e de seu tipo
+print(tuplaResultado)
+print(type(tuplaResultado))
