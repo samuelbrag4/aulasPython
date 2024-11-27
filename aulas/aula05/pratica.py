@@ -40,3 +40,11 @@ fruta = tuple(fruta)
 
 # Exibindo a nova tupla
 print(f"Esta é a nova tupla: {fruta} \n Este é o tipo da nova tupla: {type(fruta)}")
+
+# OUTRA FORMA DE FAZER - ERRADA
+
+# Adicionando um novo item
+fruta = fruta + ('Lichia', 'Morango')
+
+# Exibindo a nova tupla
+print(fruta)
