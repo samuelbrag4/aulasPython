@@ -14,6 +14,7 @@ CARACTERÍSTICAS:
 - Tuplas são ordenadas, ou seja, os elementos possuem uma ordem definida.
 - Tuplas permitem elementos duplicados.
 - Tuplas são definidas por parênteses ().
+- Podem armazenar todos os tipos de dados.
 '''
 
 # CRIANDO UMA TUPLA
@@ -21,6 +22,7 @@ tupla = (1, 2, 3, 4, 5)
 
 # ACESSANDO ELEMENTOS DE UMA TUPLA
 print(tupla[0]) # Saída: 1
+print(tupla[-1]) # Saída: 5
 
 '''
 EXPLICAÇÃO DE ACESSO:
@@ -35,4 +37,56 @@ tupla = (1, 2, 3, 4, 5)
 - tupla[0] -> 1
 
 nomeTupla[índice] -> elemento
+'''
+
+# EXIBINDO UMA TUPLA E O SEU TIPO
+print(tupla)
+print(type(tupla))
+
+# VERIFICAR O TAMANHO DA TUPLA - len()
+print(len(tupla)) # Saída: 5
+
+# INSERINDO ELEMENTOS EM UMA TUPLA - não é possível
+
+# tupla = tupla + (6, 7, 8) # Errado!
+# Não é certo se fazer isso. Porém é uma gambiarra para adicionar elementos em uma tupla.
+
+# OU
+
+#tupla.append(6) # Erro
+
+'''
+EXPLICAÇÃO:
+
+- Tuplas são imutáveis, ou seja, não podem ser alteradas após a sua criação.
+- Para adicionar elementos em uma tupla, é necessário criar uma nova tupla.
+'''
+
+# Exibindo a tupla
+print(tupla)
+
+# DELETANDO UM ITEM DE UMA TUPLA - não é possível
+
+# del tupla[0] # Erro
+
+# OU
+
+# tupla = tupla - (1, 2, 3) # Erro
+
+'''
+EXPLICAÇÃO:
+
+- Tuplas são imutáveis, ou seja, não podem ser alteradas após a sua criação.
+- Para remover elementos de uma tupla, é necessário criar uma nova tupla.
+'''
+
+# ALTERANDO CONTEÚDO DE UMA TUPLA - não é possível
+
+# tupla[1] = 20 # Erro
+
+'''
+EXPLICAÇÃO:
+
+- Tuplas são imutáveis, ou seja, não podem ser alteradas após a sua criação.
+- Para alterar elementos de uma tupla, é necessário criar uma nova tupla.
 '''
