@@ -15,7 +15,7 @@ notas = (nota1, nota2, nota3)
 media = sum(notas) / len(notas)
 
 # Impressão dos resultados:
-print(f"Olá! As notas inseridas foram: {notas} \n A média das npotas é: {media}")
+print(f"Olá! As notas inseridas foram: {notas} \n A média das notas é: {media}")
 
 '''
 2) Solicita ao usuário que insira o login e a senha,crie uma tupla (usuario(login,senha))
