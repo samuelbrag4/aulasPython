@@ -18,9 +18,9 @@ media = sum(notas) / len(notas)
 print(f"Olá! As notas inseridas foram: {notas} \n A média das notas é: {media}")
 
 '''
-2) Solicita ao usuário que insira o login e a senha,crie uma tupla (usuario(login,senha))
+2) Solicita ao usuário que insira o login e a senha, crie uma tupla (usuario(login,senha))
 com login e senha e exibe as informações armazenadas. Na última linha tente alterar
-usuario[1] = '123645', Qual é o resultado esperado e por que?
+usuario[1] = '123645'. Qual é o resultado esperado e por que?
 '''
 
 # Solicitação de inserção do login e senha:
