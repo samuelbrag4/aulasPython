@@ -33,3 +33,34 @@ print(2 >= 2)
 
 # Menor ou igual a:
 print(2 <= 2)
+
+print('-------------------')
+
+'''
+Operadores lógicos:
+
+    and : E
+    or : OU
+    not : NÃO
+    
+Eles ajudam a fazer operações 'booleanas' que retornam True ou False.
+
+and: Retorna True se ambos os valores forem True.
+or: Retorna True se um dos valores for True.
+not: Retorna True se o valor for False (inverte o valor).
+'''
+
+# Exemplos:
+
+a = True
+b = False
+
+# and:
+print(a and b)
+
+# or:
+print(a or b)
+
+# not:
+print(not a)
+print(not b)
