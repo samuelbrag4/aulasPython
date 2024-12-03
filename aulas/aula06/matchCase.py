@@ -2,8 +2,8 @@
 
 '''
 Match Case é uma nova funcionalidade do Python 3.10 que permite a comparação de valores de uma variável com múltiplos valores de uma forma mais legível e eficiente.
-Ele é praticamente uma estrutura condicional que permite comparar valores de uma variável com múltiplos valores. Muito parecido com um if-elif-else, mas com uma sintaxe 
-mais limpa e legível.
+Ele é praticamente uma estrutura condicional que permite comparar valores de uma variável com múltiplos valores. 
+Muito parecido com um if-elif-else, mas com uma sintaxe mais limpa e legível.
 
 Sintaxe:
 
@@ -16,6 +16,9 @@ match variável:
         # código
     case _:
         # código
+        
+O último case utiliza o caractere _ (underline) para representar qualquer valor que não foi contemplado nos cases anteriores. 
+Ele é opcional, mas é uma boa prática utilizá-lo
 '''
 
 # Solicitação dos dados:
@@ -31,3 +34,13 @@ match idade_usuario:
         print(f'A sua idade é {idade_usuario}. Desta forma, você é um Idoso.')
     case _:
         print(f'A sua idade é {idade_usuario}. Desta forma, você é um Morto vivo.')
+        
+# Exemplo 2:
+
+cor = 'Vermelho'
+
+match cor: 
+    case 'Vermelho' | 'Verde' | 'Azul':
+        print('Essa é uma cor primária.')
+    case _:
+        print('Essa é uma cor secundária.')
