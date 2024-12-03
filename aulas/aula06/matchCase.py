@@ -36,7 +36,6 @@ match idade_usuario:
         print(f'A sua idade é {idade_usuario}. Desta forma, você é um Morto vivo.')
         
 # Exemplo 2:
-
 cor = 'Vermelho'
 
 match cor: 
@@ -44,3 +43,12 @@ match cor:
         print('Essa é uma cor primária.')
     case _:
         print('Essa é uma cor secundária.')
+        
+# Exemplo 3:
+dados = [42, 'Resposta']
+
+match dados:
+    case [int(numero), str(texto)] if numero == 42 and texto == 'Resposta':
+        print('Você acertou a resposta!')
+    case _:
+        print('Você errou a resposta!')
