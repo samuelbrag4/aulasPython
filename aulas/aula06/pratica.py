@@ -98,3 +98,18 @@ elif nota >= 5:
     print('Nota C! Aluno em recuperação!')
 else:
     print('Nota D! Aluno reprovado!')
+    
+'''
+Solicite um número e verifique se ele é positivo, negativo ou zero. e imprima uma mensagem correspondente.
+'''
+
+# Solicitação de inserção dos dados:
+numero = float(input('Digite um número: '))
+
+# Condição:
+if numero > 0:
+    print('Número positivo.')
+elif numero < 0:
+    print('Número negativo.')
+else: 
+    print('Número zero.')
