@@ -54,3 +54,16 @@ elif A > B:
     print('A é maior que B.')
 else:
     print('B é maior que A.')
+    
+'''
+Faça um código para verificar se um número é par ou ímpar.
+'''
+
+# Solicitação de inserção dos dados:
+num = int(input('Digite um número: '))
+
+# Condição:
+if num % 2 == 0:
+    print('Número par.')
+else:
+    print('Número ímpar.')
