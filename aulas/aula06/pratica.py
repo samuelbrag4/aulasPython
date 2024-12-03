@@ -123,3 +123,16 @@ Considere as seguintes categorias:
 - Idoso --> 66 a 100
 - Morto vivo --> 101 anos ou mais
 '''
+
+# Solicitação dos dados:
+idade_usuario = int(input('Digite sua idade: '))
+
+# Condição:
+if idade_usuario <= 17:
+    print(f'A sua idade é {idade_usuario}. Desta forma, você é uma Criança/Adolescente.')
+elif idade_usuario <= 65:
+    print(f'A sua idade é {idade_usuario}. Desta forma, você é um Adulto.')
+elif idade_usuario <= 100:
+    print(f'A sua idade é {idade_usuario}. Desta forma, você é um Idoso.')
+else:
+    print(f'A sua idade é {idade_usuario}. Desta forma, você é um Morto vivo.')
