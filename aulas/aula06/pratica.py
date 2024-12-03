@@ -113,3 +113,13 @@ elif numero < 0:
     print('Número negativo.')
 else: 
     print('Número zero.')
+    
+'''
+Solicite a idade do usuário e escreva um programa em Python que verifique a categoria da idade
+Considere as seguintes categorias:
+
+- Criança/Adolescente --> 0 a 17 anos
+- Adulto --> 18 a 65 anos
+- Idoso --> 66 a 100
+- Morto vivo --> 101 anos ou mais
+'''
