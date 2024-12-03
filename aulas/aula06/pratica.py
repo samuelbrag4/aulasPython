@@ -67,3 +67,17 @@ if num % 2 == 0:
     print('Número par.')
 else:
     print('Número ímpar.')
+
+
+'''
+Solicite a idade de um usuário e verifique se ele é maior de idade.
+'''
+
+# Solicitação de inserção dos dados:
+idade = int(input('Digite sua idade: '))
+
+# Condição:
+if idade >= 18:
+    print('Você é maior de idade :D')
+else:
+    print('Você é menor de idade :C')
