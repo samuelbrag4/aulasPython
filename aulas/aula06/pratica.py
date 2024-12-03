@@ -81,3 +81,20 @@ if idade >= 18:
     print('Você é maior de idade :D')
 else:
     print('Você é menor de idade :C')
+    
+'''
+Solicite a nota de um aluno e verifique se suas notas são A, B, C ou D.
+'''
+
+# Solicitação de inserção dos dados:
+nota = float(input('Digite sua nota: '))
+
+# Condição:
+if nota >= 9:
+    print('Nota A! Aluno aprovado!')
+elif nota >= 7:
+    print('Nota B! Aluno aprovado!')
+elif nota >= 5:
+    print('Nota C! Aluno em recuperação!')
+else:
+    print('Nota D! Aluno reprovado!')
