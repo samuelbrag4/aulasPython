@@ -54,3 +54,16 @@ while contador <= numero_inserido:
         contador += 1
         
 print(f'A soma dos números ímpares de 1 até {numero_inserido} é {soma}')
+
+'''
+Explicação do fluxo do código:
+
+1. O dado é inserido pelo usuário e armazenado na variável "numero_inserido"
+2. A variável "soma" é inicializada com 0 e a variável "contador" é inicializada com 1
+3. O loop de while faz a segunte condição: 
+    enquanto o contador for menor ou igual ao número inserido pelo usuário, um if é executado, que faz e seguinte condição:
+        se o resto da divisão do contador por 2 for diferente de 0 (impar), a variável "soma" é incrementada com o valor do contador e o contador é incrementado em 1
+        senão, o contador é incrementado em 1
+4. O loop termina quando o contador for maior que o número inserido pelo usuário
+5. A soma dos números ímpares é mostrada
+'''
