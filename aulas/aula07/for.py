@@ -78,3 +78,15 @@ numero = int(input('Digite um número: '))
 
 for i in range(1, 11):
     print(f'{numero} X {i} = {numero * i}')
+    
+# Prática --> O usuário irá inserir um número e seram impressos todos os números pares até o número inserido
+numero_usuario = int(input('Digite um número: '))
+
+for i in range(2, numero_usuario + 1, 2):
+    print(i)
+    
+# Com o operador %
+
+for i in range(1, numero_usuario + 1):
+    if i % 2 == 0:
+        print(i)
