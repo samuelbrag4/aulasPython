@@ -69,3 +69,6 @@ for person in persons:
         print(f'{key}: {person[key]}')
     print(' ')
 
+# Prática --> impressão de números de 1 a 5 em ordem crescente 
+for i in range(1, 6):
+    print(i)
