@@ -41,3 +41,31 @@ for chave in dicionario:
 
 for i in range(10):
     print(i)
+    
+# ou
+
+for i in range(3, 10):
+    print(i)
+    
+# Começa do 3 e vai até o 10
+
+# OU
+
+for i in range(3, 10, 4):
+    print(i)
+    
+# Começa do 3 e vai até o 10 pulando de 4 em 4
+
+# Exemplo06 
+
+for i in range(len(dias)):
+    print(f'O valor na posição {i} é {dias[i]}')
+    
+# Exemplo07 
+persons = [{'name': 'João', 'age': 25}, {'name': 'Maria', 'age': 30}, {'name': 'José', 'age': 35}]
+
+for person in persons:
+    for key in person:
+        print(f'{key}: {person[key]}')
+    print(' ')
+
