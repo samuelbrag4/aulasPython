@@ -30,3 +30,9 @@ tupla = ('uva', 'maçã', 'banana', 'laranja', 'manga')
 
 for numero in tupla:
     print(f'Eu gosto de {numero}')
+    
+# Exemplo04 --> Loop sobre um dicionário
+dicionario = {'nome': 'João', 'idade': 25, 'cidade': 'São Paulo'}
+
+for chave in dicionario:
+    print(f'{chave}: {dicionario[chave]}')
