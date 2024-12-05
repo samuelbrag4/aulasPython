@@ -100,3 +100,10 @@ for i in range(1, numero_usuario + 1):
         soma2 += i
     
 print(f'A soma dos números pares é {soma}')
+
+# Prática --> Loop que imprime cada caracter de uma frase impressa pelo usuário
+frase = input('Digite uma frase: ')
+
+for char in frase:
+    print(char)
+    
