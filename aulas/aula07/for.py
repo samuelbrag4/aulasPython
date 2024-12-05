@@ -72,3 +72,9 @@ for person in persons:
 # Prática --> impressão de números de 1 a 5 em ordem crescente 
 for i in range(1, 6):
     print(i)
+    
+# Prátoca --> O usuário irá inserir um número e a tabuada dele até 10 deve ser impressa
+numero = int(input('Digite um número: '))
+
+for i in range(1, 11):
+    print(f'{numero} X {i} = {numero * i}')
