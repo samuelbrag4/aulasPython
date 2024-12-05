@@ -5,7 +5,7 @@ O arquivo "lacosRepeticoes" tem mais conteúdos que este, que serve somente para
 '''
 
 # Exemplo01 --> Calculo do fatorial de um número (n!)
-n = int(input("Digite um número: "))
+n = int(input("Digite um número para calcularmos o seu fatorial: "))
 
 resultado = 1
 i = 1
@@ -27,7 +27,7 @@ Explicação do fluxo do código:
 '''
 
 # Exemplo02 --> Loop de while que imprima números de 1 a 5 em ordem crescente
-numero_usuario = int(input("Digite um número: "))
+numero_usuario = int(input("Digite um número para vermos a contagem dele: "))
 
 numero_sistema = 1
 
@@ -40,7 +40,7 @@ while numero_sistema <= numero_usuario:
 print('Fim da contagem.')
 
 # Exemplo03 --> Loop que calcula e imprime a soma dos números ímpares de 1 até um número inserido pelo usuário
-numero_inserido = int(input("Digite um número: "))
+numero_inserido = int(input("Digite um número para vermos a soma dos impares de 1 até ele: "))
 
 soma = 0
 
@@ -66,4 +66,24 @@ Explicação do fluxo do código:
         senão, o contador é incrementado em 1
 4. O loop termina quando o contador for maior que o número inserido pelo usuário
 5. A soma dos números ímpares é mostrada
+'''
+
+# Exemplo04 --> Loop que exiba a tabuada de um número inserido pelo usuário. Indo de 1 a 10
+numero_tabuada = int(input("Digite um número para vermos a tabuada dele: "))
+
+contador = 1
+
+while contador <= 10: 
+    print(f'{numero_tabuada} x {contador} = {numero_tabuada * contador}')
+    contador += 1
+    
+'''
+Explicação do fluxo do código:
+
+1. O dado é inserido pelo usuário e armazenado na variável "numero_tabuada"
+2. A variável "contador" é inicializada com 1
+3. O loop de while faz a seguinte condição:
+    enquanto o contador for menor ou igual a 10, o print é executado mostrando a tabuada do número inserido pelo usuário
+4. O contador é incrementado em 1
+5. O loop termina quando o contador for maior que 10
 '''
