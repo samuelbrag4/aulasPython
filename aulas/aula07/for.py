@@ -36,3 +36,8 @@ dicionario = {'nome': 'João', 'idade': 25, 'cidade': 'São Paulo'}
 
 for chave in dicionario:
     print(f'{chave}: {dicionario[chave]}')
+    
+# Exemplo05 --> Loop sobre um range
+
+for i in range(10):
+    print(i)
