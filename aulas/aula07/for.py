@@ -79,14 +79,24 @@ numero = int(input('Digite um número: '))
 for i in range(1, 11):
     print(f'{numero} X {i} = {numero * i}')
     
-# Prática --> O usuário irá inserir um número e seram impressos todos os números pares até o número inserido
+# Prática --> O usuário irá inserir um número e seram impressos todos os números pares até o número inserido, ale´m de somar os pares e printar o resultado
 numero_usuario = int(input('Digite um número: '))
+
+soma = 0
 
 for i in range(2, numero_usuario + 1, 2):
     print(i)
+    soma += i
+
+print(f'A soma dos números pares é {soma}')
     
 # Com o operador %
+
+soma2 = 0
 
 for i in range(1, numero_usuario + 1):
     if i % 2 == 0:
         print(i)
+        soma2 += i
+    
+print(f'A soma dos números pares é {soma}')
