@@ -71,11 +71,11 @@ Explicação do fluxo do código:
 # Exemplo04 --> Loop que exiba a tabuada de um número inserido pelo usuário. Indo de 1 a 10
 numero_tabuada = int(input("Digite um número para vermos a tabuada dele: "))
 
-contador = 1
+multiplicador = 1
 
-while contador <= 10: 
-    print(f'{numero_tabuada} x {contador} = {numero_tabuada * contador}')
-    contador += 1
+while multiplicador <= 10: 
+    print(f'{numero_tabuada} x {multiplicador} = {numero_tabuada * multiplicador}')
+    multiplicador += 1
     
 '''
 Explicação do fluxo do código:
@@ -87,3 +87,4 @@ Explicação do fluxo do código:
 4. O contador é incrementado em 1
 5. O loop termina quando o contador for maior que 10
 '''
+
