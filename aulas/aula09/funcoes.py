@@ -91,3 +91,26 @@ def vogais(frase):
     return vogais
 
 print(vogais('Olá, mundo!'))
+
+# Exemplo08 --> Função que calcula o IMC de uma pessoa com base em seu peso, que será fornecido atraves de um input
+peso = float(input('Digite o seu peso: '))
+altura = float(input('Digite a sua altura: '))
+
+def imc(peso, altura):
+    imc_valor = peso / (altura ** 2)
+    print(f'Seu IMC é: {imc_valor}')
+    if imc_valor < 18.5:
+        print('Você está abaixo do peso!')
+    elif 18.5 <= imc_valor < 24.9:
+        print('Você está no peso ideal!')
+    elif 25 <= imc_valor < 29.9:
+        print('Você está com sobrepeso!')
+    elif 30 <= imc_valor < 34.9:
+        print('Você está com obesidade grau I!')
+    elif 35 <= imc_valor < 39.9:
+        print('Você está com obesidade grau II!')
+    else:
+        print('Você está com obesidade grau III!')
+    return imc_valor
+
+imc(peso, altura)
