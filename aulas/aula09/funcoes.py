@@ -116,7 +116,7 @@ def imc(peso, altura):
 imc(peso, altura)
 
 # Exemplo09 --> Programa que faça o tratamento de um texto, deixando o texto sem: letras maiúsculas, sem espaço no inicio e no fim do texto e sem @
-texto = '   Olá, Mundo!    '
+texto = '   Olá, Mundo! Meu e-mail é: @ '
 
 def tratamento_texto(texto):
     texto = texto.lower()
