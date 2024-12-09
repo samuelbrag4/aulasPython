@@ -1,3 +1,5 @@
+from unidecode import unidecode
+
 # Funções 
 
 '''
@@ -76,3 +78,16 @@ def dia(dia):
     print(f'Hoje é {dia}!')
     
 dia('segunda-feira')
+
+# Exemplo07 --> Função que vê quantas vogais tem em uma frase
+def vogais(frase):
+    vogais = 0
+    frase = frase.lower()
+    frase = frase.replace(' ', '')
+    frase = unidecode(frase)
+    for letra in frase:
+        if letra in 'aeiou':
+            vogais += 1
+    return vogais
+
+print(vogais('Olá, mundo!'))
