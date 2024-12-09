@@ -60,3 +60,19 @@ def numero_par_impar(numero):
         print('O número é ímpar!')
         
 numero_par_impar(5)
+
+# Exemplo06 --> Função que fala qual dia é hoje
+
+'''
+Forma complicada:
+
+hoje = 'segunda-feira'
+print(f'Hoje é {hoje}!')
+
+Forma mais simples utilizando função:
+'''
+
+def dia(dia):
+    print(f'Hoje é {dia}!')
+    
+dia('segunda-feira')
