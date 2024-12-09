@@ -28,3 +28,26 @@ def saudacao(nome):
     print(f'Olá, {nome}!')
     
 saudacao('João')
+
+# Exemplo02 --> Função que soma dois números
+def soma(a, b):
+    return a + b
+
+print(soma(3, 3))
+
+# Exemplo03 --> Função que calcula a média de três números
+def media(a, b, c):
+    return (a + b + c) / 3
+
+print(media(5, 1, 15))
+
+# Exemplo04 --> Função que calcula a idade de uma pessoa com base no ano de nascimento e depois valida se ela já pode dirigir, seguido de uma veruficação se ela é maior de idade
+def idade(ano_nacimento):
+    idade = 2024 - ano_nacimento
+    if idade >= 18:
+        print('Você já pode dirigir! Pois é maior de idade!')
+    else:
+        print('Você ainda não pode dirigir! Pois é menor de idade!')
+    return idade
+
+print(idade(2000))
