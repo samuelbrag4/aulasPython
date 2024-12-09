@@ -125,3 +125,9 @@ def tratamento_texto(texto):
     return texto
 
 print(tratamento_texto(texto))
+
+# Exemplo10 --> Função que calcula o quadrado de um número
+def quadrado(X):
+    return X ** 2
+
+print(quadrado(5))
