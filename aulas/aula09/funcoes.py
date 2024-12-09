@@ -51,3 +51,12 @@ def idade(ano_nacimento):
     return idade
 
 print(idade(2000))
+
+# Exemplo05 --> Função que verifica se um número é par ou ímpar
+def numero_par_impar(numero):
+    if numero % 2 == 0:
+        print('O número é par!')
+    else:
+        print('O número é ímpar!')
+        
+numero_par_impar(5)
