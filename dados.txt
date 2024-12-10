@@ -1,0 +1,5 @@
+Nome: João
+Idade: 25
+Sexo: Masculino
+Profissão: Programador
+Salário: 5000
