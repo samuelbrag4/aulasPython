@@ -20,3 +20,10 @@ print('Novo arquivo renomeado com sucesso!')
 with open('novo_arquivo_renomeado.txt', 'r') as arquivo:
     conteudo = arquivo.read()
     print(conteudo)
+    
+# Remover arquivo
+if os.path.exists('novo_arquivo_renomeado.txt'):
+  os.remove('novo_arquivo_renomeado.txt')
+  print('Arquivo removido com sucesso!')
+else:
+  print('Arquivo não encontrado!')
