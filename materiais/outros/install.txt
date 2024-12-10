@@ -1,0 +1,23 @@
+# Instalar biblioteca
+pip install nome_da_biblioteca
+
+# Biblioteca requests
+pip install requests
+
+# Versão específica de uma biblioteca
+pip install nome_da_biblioteca==versao_desejada
+
+# Desinstalar biblioteca
+pip uninstall nome_da_biblioteca
+
+# Listar bibliotecas instaladas
+pip list
+
+# Listar bibliotecas desatualizadas
+pip list --outdated
+
+# Atualizar biblioteca
+pip install --upgrade nome_da_biblioteca
+
+# Instalar biblioteca a partir de um arquivo
+pip install caminho_do_arquivo
