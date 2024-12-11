@@ -1,6 +1,9 @@
 # Aulas de Python 🐍
 
-Este repositório armazena todos os conteúdos aprendidos durante as **Aulas de Python**. Aqui você encontrará aulas, atividades e materiais adicionais.
+Este repositório armazena todos os conteúdos aprendidos durante as **Aulas de Python**. 
+Aqui você encontrará aulas, atividades, materiais adicionais e projetos desenvolvidos durante as aulas.
+
+Espero que goste dos conteúdos e aprenda com eles! 
 
 ## Estrutura de Arquivos 📂
 
@@ -8,8 +11,8 @@ Este repositório armazena todos os conteúdos aprendidos durante as **Aulas de 
 aulasPython/
 │
 ├── atividades/ # Atividades separadas em pastas de acordo com as aulas
-│   ├── atividade01.py
-│   ├── atividade02.py
+│   ├── aula01_02_atividade
+│   ├── aula03_atividades
 │   └── ...
 │
 ├── aulas/ # Aulas separadas em pastas com nomes como: "aulaX"
@@ -31,7 +34,7 @@ aulasPython/
 ```
 
 ## Pré-requisitos 🛠️
-- Python 3.x
+- Versão mais atual do **Python**
 - Bibliotecas necessárias (instaláveis via pip):
   - openpyxl
   - pandas
