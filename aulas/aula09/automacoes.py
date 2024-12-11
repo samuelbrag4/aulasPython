@@ -13,3 +13,8 @@ Vantagens de usar python para automações:
 - Fácil de instalar
 - Fácil de usar
 '''
+
+# Para realizar automações, vamos utilizar duas bibliotecas. Sendo elas:
+
+import Openpyxl # pip install openpyxl
+# Essa biblioteca é utilizada para manipular arquivos do Excel
