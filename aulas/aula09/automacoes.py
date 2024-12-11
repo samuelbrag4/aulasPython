@@ -27,8 +27,13 @@ wb = load_workbook(arquivo)
 planilha = wb.active 
 
 # Iterar sobre as células da planilha e imprimir seus valores
+
+print('Forma realizada com IA:')
+
 for linha in planilha.iter_rows(values_only=True):
     print(linha)
+
+print('\n')    
     
 '''
 Explicação da lógica e dos simbolos utilizados no código abaixo:
@@ -42,3 +47,39 @@ Enquanto houver linhas na planilha, faça:
 O .iter_rows() é um método que itera sobre as linhas da planilha
 O values_only=True é um argumento que retorna apenas os valores das células
 '''
+
+print('Foma do Professor:')
+
+dados = []
+
+# Iterar sobre todas as linhas e colunas
+for row in planilha.iter_rows():
+    dados.append([cell.value for cell in row])
+    
+print(dados)
+
+print('\n')    
+
+print('Segunda forma do Professor:')
+
+# Exibir as primeiras linhas de dados
+for linha in dados:
+    print(linha)
+    
+
+print('\n')  
+
+# Com pandas
+
+print('Forma com Pandas:')
+
+import pandas as pd
+
+dados = []
+
+# Corrigir o caminho do arquivo para ser uma string
+tabela = pd.read_excel('C:/Users/Aluno/Desktop/cursoPython/exelCursoPython.xlsx')
+
+print(tabela)
+
+print('\n')    
