@@ -43,3 +43,10 @@ for linha in planilha.iter_rows(values_only=True):
     print(linha)
     
 print('\n')
+
+# Com pandas 
+import pandas as pd
+
+df = pd.read_excel('C:/Users/Aluno/Desktop/cursoPython/exelCursoPython.xlsx')
+
+print(df)
