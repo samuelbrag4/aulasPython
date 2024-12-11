@@ -50,3 +50,20 @@ import pandas as pd
 df = pd.read_excel('C:/Users/Aluno/Desktop/cursoPython/exelCursoPython.xlsx')
 
 print(df)
+
+print('\n')
+
+# Outra forma mais complexa
+
+dados = {
+    'Nome': ['João', 'Maria', 'José', 'Jane'],
+    'Idade': [25, 30, 22, 35],
+    'Sexo': ['M', 'F', 'M', 'F']
+}
+
+df = pd.DataFrame(dados)
+
+# Salvar o DataFrame em um arquivo do excel
+df.to_excel('C:/Users/Aluno/Desktop/cursoPython/planilha_feita_com_pandas.xlsx', index=False, sheet_name='planilha_feita_com_pandas')
+
+print('Planilha criada com sucesso!')
