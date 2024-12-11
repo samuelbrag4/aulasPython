@@ -5,46 +5,36 @@ Este repositório armazena todos os conteúdos aprendidos durante as **Aulas de 
 ## Estrutura de Arquivos 📂
 
 ```bash
-meu-projeto/
+aulasPython/
 │
 ├── atividades/ # Atividades separadas em pastas de acordo com as aulas
 │   ├── atividade01.py
 │   ├── atividade02.py
-│   ├── atividade03.py
-│   ├── atividade04.py
-│   ├── atividade05.py
-│   ├── atividade06.py
-│   └── aula03_atividades/
-│       ├── atividade01.py
-│       ├── atividade02.py
-│       ├── atividade03.py
-│       └── atividade04.py
+│   └── ...
 │
 ├── aulas/ # Aulas separadas em pastas com nomes como: "aulaX"
 │   ├── aula01/
-│   │   ├── comentarios.py
-│   │   ├── metodoRoundAndPow.py
-│   │   ├── mudandoValorVariaveis.py
-│   │   ├── printCalculos.py
-│   │   ├── tiposDados.py
-│   │   ├── tudo.py
-│   │   ├── type.py
-│   │   └── variaveis.py
 │   ├── aula02/
-│   │   ├── declaracaoStr.py
-│   │   ├── f-strings.py
-│   │   ├── input.py
-│   │   ├── juntarTexto.py
-│   │   └── ...
-│   └── aula03/
-│       └── ...
+│   ├── aula03/
+│   └── ...
 │
 ├── materiais/ # Conteúdos adicionais pesquisados além do curso
-│   └── metodos/
-│       └── ...
+│   ├── colecoes/
+│   ├── metodos/
+│   └── ...
 │
-├── README.md # Você está lendo ele             
+├── projetos/ # Projetos desenvolvidos durante o curso
+│   ├── projeto01/
+│   └── ...
+│
+├── [README.md](http://_vscodecontentref_/1) # Você está lendo ele          
 ```
+
+## Pré-requisitos 🛠️
+- Python 3.x
+- Bibliotecas necessárias (instaláveis via pip):
+  - openpyxl
+  - pandas
 
 ## Como Executar os Scripts 💻
 
@@ -53,6 +43,9 @@ Para executar qualquer um dos scripts Python, você pode usar o comando `python`
 ```sh
 python aulas/aula01/comentarios.py
 ```
+
+## Contato 📧
+Para dúvidas ou suporte, entre em contato comigo através do meu e-mail: samuelbraga1306@gmail.com!
 
 ## Contribuindo 💪
 
