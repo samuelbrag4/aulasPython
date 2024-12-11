@@ -66,7 +66,6 @@ print('Segunda forma do Professor:')
 for linha in dados:
     print(linha)
     
-
 print('\n')  
 
 # Com pandas
